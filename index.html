@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Renterio</title>
+<!--    google font manrope-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!--    tailwind+daisy ui link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'web-primary': '#ABEF5F',
+                        'web-secondary': '#ABEF5F80',
+                        'web-gray': '#F4F4F4',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-manrope">
+<!--header start-->
+<header class="md:container mx-auto ">
+<!--    navbar-->
+    <nav class="mx-5" >
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <ul
+                            tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="font-bold">Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1 mr-1 bg-web-primary rounded-full p-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                    <a class=" text-xl font-bold">Rinterio</a>
+                </div>
+
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-gray-700">
+                    <li><a class="font-bold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end invisible md:visible ">
+                <div class="flex gap-6 mr-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 bg-gray-100 p-2 rounded-full">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 bg-gray-100 p-2 rounded-full">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+                </div>
+
+
+                <a class="btn bg-web-primary hover:bg-web-primary font-bold rounded-full">Book Consult  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1 mr-1 bg-black text-white rounded-full p-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg></a>
+
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-9 bg-gray-100 p-2 rounded-full md:ml-2 lg:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+        </div>
+    </nav>
+<!--    navbar end-->
+<!--    banner start-->
+    <section class="my-20">
+        <div class="text-center mx-5">
+            <div class="flex justify-center items-center">
+                <img src="assets/banner.png" alt="banner">
+            </div>
+            <div class="mx-auto my-6 lg:w-3/4 space-y-6">
+                <h1 class=" text-2xl lg:text-6xl font-bold">A barn house of this design has a <br> striking appearance
+                </h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+
+            </div>
+
+
+            <a class="btn bg-web-secondary  hover:bg-web-primary font-bold rounded-full">View Details  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1 mr-1 bg-web-primary text-black rounded-full p-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg></a>
+        </div>
+    </section>
+
+</header>
+<!--header end-->
+<!--main start -->
+<main class=" bg-web-gray">
+<!--    about section-->
+    <section class="my-9 bg-web-gray relative">
+            <div class=" md:container mx-auto ">
+                <div class="grid grid-cols-1 lg:grid-cols-2 mx-5  lg:mx-20 gap-12 py-16 ">
+                    <!--                about content-->
+                    <div class=" space-y-4 ">
+                        <a href="" class="btn rounded-full font-bold bg-white w-42 ml-20 lg:ml-0"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                            About us</a>
+                        <div class="space-y-3 text-center lg:text-start">
+                            <h1 class="text-2xl lg:text-4xl font-bold">We design thoughtful, <br> liveable spaces</h1>
+                            <p>The phrase "We design thoughtful, livable spaces" encapsulates a commitment to <br> creating environments that prioritize both functionality and comfort.</p>
+                        </div>
+                        <!--                    card1-->
+                        <div class=" bg-white  my-4 rounded-lg  ">
+                            <div  class="flex p-4 ">
+                                <img class="h-12" src="assets/commercial.png" alt="">
+                                <div class="space-y-1 ml-4">
+                                    <h1 class="text-1xl font-bold">Commercial</h1>
+                                    <p class="">We believe that a well-designed commercial <br> space can enhance productivity,</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class=" bg-white   rounded-lg  ">
+                            <div  class="flex p-4 ">
+                                <img class="h-12" src="assets/residential.png" alt="">
+                                <div class="space-y-3 ml-4">
+                                    <h1 class="text-1xl font-bold">Residential</h1>
+                                    <p>We take a personalized approach to each <br> project, working closely with you</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <img class="" src="assets/regtangle.png" alt="">
+                    </div>
+                </div>
+                <div class="absolute invisible lg:visible top-12 left-0  p-4 border-dotted border-3">
+                    <img class="border border-dotted w-20 	" src="assets/vector.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+<!--    Work Process Section-->
+    <section class="my-12 bg-web-gray">
+        <div class="md:container mx-auto">
+<!--            work content-->
+                <div class=" space-y-4 text-center ">
+                    <a href="" class="btn rounded-full font-bold bg-white w-42 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                        How we works</a>
+                    <div class="space-y-3 text-center ">
+                        <h1 class="text-2xl lg:text-4xl font-bold">Our Works Process</h1>
+                        <p>We begin with a comprehensive consultation to understand your vision, goals, and requirements.
+                            <br> This includes discussing your lifestyle, preferences, budget, and timeline.
+
+                        </p>
+                    </div>
+
+        </div>
+<!--            card section    -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-12 mx-5 lg:mx-20">
+<!--                card1-->
+                <div class="bg-red-200 rounded-lg">
+                    <div class="space-y-3 p-4 r">
+                        <img src="assets/concept.png" alt="">
+                           <h1 class="text-1xl font-bold">Concept</h1>
+                        <p class="text-[#494949]">A concept is an abstract idea or a general notion</p>
+
+                    </div>
+                </div>
+                <div class="bg-yellow-200 rounded-lg">
+                    <div class="space-y-3 p-4 r">
+                        <img src="assets/flow-chart.png" alt="">
+                           <h1 class="text-1xl font-bold">Design Process</h1>
+                        <p class="text-[#494949]">A concept is an abstract idea or a general notion</p>
+
+                    </div>
+                </div>
+                <div class="bg-green-200 rounded-lg">
+                    <div class="space-y-3 p-4 r">
+                        <img src="assets/vision.png" alt="">
+                           <h1 class="text-1xl font-bold">Super Vision</h1>
+                        <p class="text-[#494949]">A concept is an abstract idea or a general notion</p>
+
+                    </div>
+                </div>
+                <div class="bg-blue-200 rounded-lg">
+                    <div class="space-y-3 p-4 r">
+                        <img src="assets/budget-planning.png" alt="">
+                           <h1 class="text-1xl font-bold">Budget Planning</h1>
+                        <p class="text-[#494949]">A concept is an abstract idea or a general notion</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+   </section>
+<!--    portfolio section-->
+    <section class="py-12 bg-white">
+        <div class="md:container mx-auto">
+
+            <!--            portfolio content-->
+            <div class=" space-y-4 text-center ">
+                <a href="" class="btn rounded-full font-bold bg-web-secondary w-42 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+                    Explore our Latest works</a>
+                <div class="space-y-3 text-center ">
+                    <h1 class="text-2xl lg:text-4xl font-bold">Our Latest Portfolio</h1>
+                    <p>Craft a personal bio that reflects your unique voice and style.  This page should give <br> insight into who you are and what you do.
+                    </p>
+                </div>
+
+            </div>
+<!--            card section    -->
+
+           <div class="mt-10 mx-5 lg:mx-20">
+               <div class="grid grid-cols-1 lg:grid-cols-2 ">
+                   <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-8 border-2 rounded-xl lg:mt-12 mb-12">
+                       <div class="">
+                           <img class=" w-full" src="assets/img1.png" alt="">
+                       </div>
+                       <div class="space-y-4">
+                           <h1 class="text-3xl font-bold">Comercial</h1>
+
+                           <p class="text-1xl">We believe that a well-designed commercial space can enhance productivity,</p>
+
+                           <a href="" class="font-bold flex">View Details  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1 ml-3 bg-web-primary rounded-full p-1">
+
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+
+                           </svg></a>
+
+                       </div>
+
+                   </div>
+                   <div class="  lg:mt-12 mb-12 mx-20 flex justify-center items-center border-2 rounded-xl">
+                       <img class="" src="assets/img2.png" alt="">
+                   </div>
+               </div>
+               <div class="grid grid-cols-1 lg:grid-cols-3 ">
+                   <div class="  lg:mt-16 mb-16 mx-10 flex justify-center items-center border-2 rounded-xl">
+                       <img class="" src="assets/img3.png" alt="">
+                   </div>
+                   <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-8 border-2 rounded-xl lg:mt-16 mb-16">
+                       <div class="">
+                           <img class=" w-full" src="assets/img4.png" alt="">
+                       </div>
+                       <div class="space-y-2">
+                           <h1 class="text-2xl font-bold">Comercial</h1>
+
+                           <p class="text-1xl">We believe that a well-designed commercial space can enhance productivity,</p>
+
+                           <a href="" class="font-bold flex">View Details  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1 ml-3 bg-web-primary rounded-full p-1">
+
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+
+                           </svg></a>
+
+                       </div>
+
+                   </div>
+                   <div class="  lg:mt-16 mb-16 mx-10 flex justify-center items-center border-2 rounded-xl">
+                       <img class="" src="assets/img5.png" alt="">
+                   </div>
+               </div>
+<!-
+           </div>
+
+        </div>
+    </section>
+</main>
+
+<!--footer-->
+<footer>
+    
+</footer>
+</body>
+</html>
